@@ -154,3 +154,15 @@ To create your own model, you can modify the `_build_model` method in the `Cance
    ```
 
 4. Save the changes and re-run the training script to train your new model.
+
+## Model Management
+
+The trained model file (`breast_cancer_model.h5`) is not included in this repository due to its large size and to encourage reproducibility. To use this project, you have two options:
+
+1. Train the model yourself using the provided `train_model.py` script. See the [Training the Model](#training-the-model) section for details.
+
+2. Download a pre-trained model:
+   - You can download our latest pre-trained model from [insert link to where you host the model, e.g., Google Drive, project releases, etc.]
+   - Place the downloaded `breast_cancer_model.h5` file in the `detection/model/` directory.
+
+If you make improvements to the model, please document your changes and the resulting performance metrics.
