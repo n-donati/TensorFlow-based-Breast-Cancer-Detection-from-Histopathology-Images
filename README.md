@@ -58,7 +58,7 @@ breast_cancer_detection/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/breast_cancer_detection.git
+   git clone https://github.com/n-donati/TensorFlow-based-Breast-Cancer-Detection-from-Histopathology-Images.git
    cd breast_cancer_detection
    ```
 
